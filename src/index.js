@@ -5,7 +5,7 @@ const maths = {
   '/': (a, b) => a / b,
 };
 
-const operators = Object.keys(maths);
+export const operators = Object.keys(maths);
 
 const isOperator = (operator) => operators.includes(operator);
 const isNumber = (num) => typeof num === 'number';
