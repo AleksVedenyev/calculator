@@ -1,4 +1,4 @@
-import calculate, { operators } from '../src/index.js';
+import calculate, { operators } from './index.js';
 
 const resultView = document.getElementById('result');
 const controlsView = document.getElementById('controls');

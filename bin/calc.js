@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import calculate from '../src/index.js';
+import calculate from '../public/index.js';
 
 const state = { result: 0 };
 
